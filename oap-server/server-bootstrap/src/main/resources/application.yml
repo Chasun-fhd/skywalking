@@ -422,3 +422,7 @@ configuration-discovery:
   selector: ${SW_CONFIGURATION_DISCOVERY:default}
   default:
     disableMessageDigest: ${SW_DISABLE_MESSAGE_DIGEST:false}
+
+receiver-event:
+  selector: ${SW_RECEIVER_EVENT:default}
+  default:
